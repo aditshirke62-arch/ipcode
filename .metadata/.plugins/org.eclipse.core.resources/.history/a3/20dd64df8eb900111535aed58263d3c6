@@ -1,0 +1,45 @@
+package practical4;
+
+class Student{
+	int rollno=12;
+	static String collegeName="TCET";
+	static int square(int x) {
+		System.out.println("The rollno is "+rollno);
+		return x*x;
+		
+	}
+	
+}
+
+
+
+class Outer{
+	static class Inner{
+		void msg() {
+			System.out.println("Static Nested Class");
+		}
+	}
+}
+public class StaticExample{
+ public static void main(String[] args) {
+   Outer.Inner obj = new Outer.Inner();
+   obj.msg();
+   
+ } 
+ //public class StaticExample {
+	// public static void main(String[] args) {
+		// System.out.println(Student.collegeName);
+		 //System.out.println("Square of 5 is "+Student.square(x 5));
+	class child extends parent{
+		static void show() {
+			System.out.println("Child Static");
+	 }
+ }
+ 
+	public class Test{
+		public static void main(String[] args) {
+			parent p = new child();
+			p.show();
+		}
+		}}
+	}

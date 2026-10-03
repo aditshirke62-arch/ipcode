@@ -1,0 +1,14 @@
+package practical4;
+
+public class ArithmaticException extends Exception {
+public static void main(String[]args) {
+	try {
+		int result = arr[0]/arr[4];
+	}catch(ArithmeticException e) {
+		System.out.println("Denominator should not be 0");
+	}catch(ArrayIndexOutOfBoundsException e) {
+		System.out.println("Exception Completed");
+		
+	}
+}
+}
